@@ -36,6 +36,8 @@ void merge(int *arr, int i, int m, int j) {
     for (int k = 0; k < (j - i + 1); k++) {
         arr[i+k] = temp[k];
     }
+    
+    free(temp);
 }
 
 void mergeSort(int *arr, int i, int j) {

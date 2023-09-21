@@ -1,2 +1,2 @@
-# sorts
+# Sorts
 implementations of sorts in C.
